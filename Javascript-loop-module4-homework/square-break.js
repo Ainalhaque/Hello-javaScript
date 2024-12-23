@@ -5,7 +5,7 @@
 for(let i = 1; i <= 100; i++){
     console.log(i);
     
-    if(Math.sqrt(i)){
+    if(Math.pow(i,i)){
         break;
     }
 
